@@ -1,0 +1,291 @@
+
+// full list of Bootstrap variables:
+// http://getbootstrap.com/customize/#less-variables
+// use $ instead of @ (for scss vs less)
+// customize bootstrap variables before importing:
+$navbar-default-bg: #003366;
+$navbar-height: 80px;
+//bootstrap to use only Open Sans
+$font-family-base: 'Open Sans', sans-serif;
+// $grid-gutter-width: 0px;
+// $container-lg: 940px;
+
+//import bootstrap
+@import 'bootstrap';
+@import 'compass/css3';
+@import "compass/css3/opacity";
+@import "compass/css3/box-shadow";
+@import "compass/css3/filter";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700);
+
+body {
+    width: 100%;
+    height: 100%;
+
+    //if font breaks, uncomment following line:
+    // font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+// section .container {
+//   max-width: 940px !important;
+// }
+
+
+// keeps bootstrap container within bounds of section
+.container {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  max-width: 970px !important;
+}
+
+//turn this into scss
+.navbar {
+box-shadow: 0px 2px 12px 3px #151515;
+-moz-box-shadow: 0px 2px 12px 3px #151515;
+-webkit-box-shadow: 0px 2px 12px 3px #151515;
+}
+
+
+
+// .navbar-fixed-top {
+//   height: 70px;
+// }
+
+
+
+
+.navbar-brand {
+  padding: 0;
+}
+
+
+
+//for customized jquery plugin, adding a '.grayscaled' class to each image it loads
+.grayscaled {
+  @include filter(grayscale(70%));
+}
+
+
+
+
+/* ===== Wrapper ====== */
+
+.wrapper {
+position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  z-index: 999;
+
+}
+
+
+/*  ======= Media Queries ====== */
+
+@media (max-width: 767px) {
+  .logo {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 50px;
+
+  }
+
+  section {
+    width: 100%;
+  }
+
+
+//   .navbar-brand {
+//     padding-top: 10px;
+//   }
+ }
+
+@media(min-width:767px) {
+
+    .logo {
+      height: 80px;
+      margin-left: 20px;
+
+  }
+
+  section {
+    width: 90%;
+  }
+
+
+    .navbar {
+        padding: 65px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-nav {
+      float: right;
+      padding-right: 100px;
+    }
+
+    .top-nav-collapse {
+        /* Customize the look and feel of the collapsed top nav here */
+      padding: 0px 0px;
+
+    }
+}
+
+
+@media(min-width:1200px) {
+  section {
+    width: 80%;
+  }
+}
+
+
+
+/* ===== Home Services ===== */
+.home-services {
+
+  background: #CCCC99;
+  color: white;
+}
+.home-services ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.home-services li {
+  float: left;
+  width: 24%;
+  padding: 18px 3px;
+  border-right: 1px solid #a3a37a;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  /* to avoid cell breaking during expanding on hover */
+  -webkit-transition: width 300ms;
+  -moz-transition: width 300ms;
+  transition: width 300ms;
+}
+.home-services li:first-child {
+  border-left: 1px solid #a3a37a;
+}
+.home-services ul:hover li {
+  width: 20%;
+}
+.home-services ul:hover > li:hover {
+  width: 36%;
+}
+.home-services li i {
+  font-size: 22px;
+}
+.home-services li p {
+  margin: 10px 0 0;
+  text-transform: uppercase;
+}
+// .home-services li span {
+//   display: none;
+// }
+// .home-services li:hover span {
+//   display: inline-block;
+// }
+.home-services .lead {
+  margin: 0;
+  line-height: 93px;
+}
+@media (max-width: 992px) {
+  /* Adjusting for small devices */
+  .home-services ul {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  /* Adjusting for mobile */
+  .home-services li {
+    display: block;
+    float: none;
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1px solid #a3a37a;
+      padding: 10px 3px;
+  }
+  .home-services li:first-child {
+    border-left: 0;
+  }
+  .home-services ul:hover li {
+    width: 100%;
+  }
+  .home-services ul:hover > li:hover {
+    width: 100%;
+  }
+}
+
+
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+
+.home-section {
+    height: 100%;
+
+    margin: 0 auto;
+    padding-top: 100px;
+    background: rgba(255,255,255,.9);
+
+    //only headers should be centered
+    h2 {
+      text-align: center;
+    }
+}
+
+.about-section {
+    height: 100%;
+
+    margin: 0 auto;
+
+    padding-top: 100px;
+    background: #eee;
+
+    //only headers should be centered
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      font-size: 16px;
+    }
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 100px;
+
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+}
+
+
+.reservations-section {
+    height: 100%;
+    padding-top: 100px;
+
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 100px;
+
+    margin: 0 auto;
+    text-align: center;
+    background: #eee;
+}
