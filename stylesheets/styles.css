@@ -8084,38 +8084,35 @@ html {
     width: 100%;
   }
 }
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
-of those sections to manage the look and feel of the site. */
-/* line 234, ../sass/styles.scss */
+/* line 231, ../sass/styles.scss */
 .home-section {
   height: 100%;
   margin: 0 auto;
   padding-top: 100px;
   background: rgba(255, 255, 255, 0.9);
 }
-/* line 242, ../sass/styles.scss */
+/* line 239, ../sass/styles.scss */
 .home-section h2 {
   text-align: center;
 }
 
-/* line 247, ../sass/styles.scss */
+/* line 244, ../sass/styles.scss */
 .about-section {
   height: 100%;
   margin: 0 auto;
   padding-top: 100px;
   background: #eee;
 }
-/* line 256, ../sass/styles.scss */
+/* line 253, ../sass/styles.scss */
 .about-section h2 {
   text-align: center;
 }
-/* line 260, ../sass/styles.scss */
+/* line 257, ../sass/styles.scss */
 .about-section p {
   font-size: 16px;
 }
 
-/* line 265, ../sass/styles.scss */
+/* line 262, ../sass/styles.scss */
 .services-section {
   height: 100%;
   padding-top: 100px;
@@ -8124,7 +8121,7 @@ of those sections to manage the look and feel of the site. */
   background: #fff;
 }
 
-/* line 275, ../sass/styles.scss */
+/* line 272, ../sass/styles.scss */
 .reservations-section {
   height: 100%;
   padding-top: 100px;
@@ -8133,7 +8130,7 @@ of those sections to manage the look and feel of the site. */
   background: #fff;
 }
 
-/* line 284, ../sass/styles.scss */
+/* line 281, ../sass/styles.scss */
 .contact-section {
   height: 100%;
   padding-top: 100px;

@@ -227,9 +227,6 @@ position: absolute;
 
 
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
-of those sections to manage the look and feel of the site. */
 
 .home-section {
     height: 100%;
@@ -252,7 +249,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 100px;
     background: #eee;
 
-    //only headers should be centered
+    //only headers should be centered? not sure on this yet
     h2 {
       text-align: center;
     }
