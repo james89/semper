@@ -1,5 +1,5 @@
 ##Semperide
-###TO DO
+###Tasks
 
 
 ####clean up css to scss, compass transitions, modularize media queries, etc.
