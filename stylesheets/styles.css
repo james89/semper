@@ -8128,8 +8128,13 @@ html {
   margin: 0 auto;
   background: #fff;
 }
+/* line 289, ../sass/styles.scss */
+.services-section dt {
+  padding-top: 1em;
+  padding-bottom: .2em;
+}
 
-/* line 291, ../sass/styles.scss */
+/* line 296, ../sass/styles.scss */
 .reservations-section {
   height: 100%;
   padding-top: 100px;
@@ -8138,7 +8143,7 @@ html {
   background: #fff;
 }
 
-/* line 300, ../sass/styles.scss */
+/* line 305, ../sass/styles.scss */
 .contact-section {
   height: 100%;
   padding-top: 100px;
