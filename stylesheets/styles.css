@@ -7914,33 +7914,38 @@ dt {
   border-bottom: 1px solid #D2D294;
 }
 
-/* line 62, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
+.navbar-nav > li > a {
+  padding-bottom: 5px;
+}
+
+/* line 66, ../sass/styles.scss */
 .container {
   margin-right: auto !important;
   margin-left: auto !important;
   max-width: 970px !important;
 }
 
-/* line 69, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 .navbar {
   box-shadow: 0px 2px 12px 3px #151515;
   -moz-box-shadow: 0px 2px 12px 3px #151515;
   -webkit-box-shadow: 0px 2px 12px 3px #151515;
 }
 
-/* line 84, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 .navbar-brand {
   padding: 0;
 }
 
-/* line 91, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 .grayscaled {
   -webkit-filter: grayscale(70%);
   filter: grayscale(70%);
 }
 
 /* ===== Wrapper ====== */
-/* line 100, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 .wrapper {
   position: absolute;
   bottom: 0;
@@ -7952,83 +7957,94 @@ dt {
 
 /*  ======= Media Queries ====== */
 @media (max-width: 767px) {
-  /* line 114, ../sass/styles.scss */
+  /* line 112, ../sass/styles.scss */
   .logo {
     margin-top: 10px;
     margin-left: 20px;
     height: 50px;
   }
 
-  /* line 121, ../sass/styles.scss */
+  /* line 119, ../sass/styles.scss */
   section {
     width: 100%;
   }
-  /* line 123, ../sass/styles.scss */
+  /* line 121, ../sass/styles.scss */
   section dl {
     padding: 15px;
   }
 }
 @media (min-width: 767px) {
-  /* line 136, ../sass/styles.scss */
+  /* line 134, ../sass/styles.scss */
+  .current {
+    border-bottom-color: #D2D294;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  /* line 142, ../sass/styles.scss */
   .logo {
     height: 80px;
     margin-left: 20px;
   }
 
-  /* line 142, ../sass/styles.scss */
+  /* line 148, ../sass/styles.scss */
   section {
     width: 90%;
   }
-  /* line 144, ../sass/styles.scss */
+  /* line 150, ../sass/styles.scss */
   section dl {
     padding: 10px;
   }
 
-  /* line 150, ../sass/styles.scss */
+  /* line 156, ../sass/styles.scss */
   .navbar-big {
     padding: 65px 0;
   }
 
-  /* line 154, ../sass/styles.scss */
+  /* line 160, ../sass/styles.scss */
   .navbar {
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
   }
 
-  /* line 161, ../sass/styles.scss */
+  /* line 167, ../sass/styles.scss */
   .navbar-nav {
     float: right;
     padding-right: 100px;
   }
 
-  /* line 166, ../sass/styles.scss */
+  /* line 172, ../sass/styles.scss */
   .top-nav-collapse {
     /* Customize the look and feel of the collapsed top nav here */
     padding: 0px 0px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 175, ../sass/styles.scss */
+  /* line 181, ../sass/styles.scss */
   section {
     width: 80%;
   }
 }
 /* ===== Home Services ===== */
-/* line 183, ../sass/styles.scss */
+/* line 189, ../sass/styles.scss */
 .home-services {
   background: #CCCC99;
   color: white;
 }
 
-/* line 188, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 .home-services ul {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
 }
 
-/* line 193, ../sass/styles.scss */
+/* line 199, ../sass/styles.scss */
 .home-services li {
   float: left;
   width: 24%;
@@ -8043,33 +8059,33 @@ dt {
   transition: width 300ms;
 }
 
-/* line 206, ../sass/styles.scss */
+/* line 212, ../sass/styles.scss */
 .home-services li:first-child {
   border-left: 1px solid #a3a37a;
 }
 
-/* line 209, ../sass/styles.scss */
+/* line 215, ../sass/styles.scss */
 .home-services ul:hover li {
   width: 20%;
 }
 
-/* line 212, ../sass/styles.scss */
+/* line 218, ../sass/styles.scss */
 .home-services ul:hover > li:hover {
   width: 36%;
 }
 
-/* line 215, ../sass/styles.scss */
+/* line 221, ../sass/styles.scss */
 .home-services li i {
   font-size: 22px;
 }
 
-/* line 218, ../sass/styles.scss */
+/* line 224, ../sass/styles.scss */
 .home-services li p {
   margin: 10px 0 0;
   text-transform: uppercase;
 }
 
-/* line 228, ../sass/styles.scss */
+/* line 234, ../sass/styles.scss */
 .home-services .lead {
   margin: 0;
   line-height: 93px;
@@ -8077,14 +8093,14 @@ dt {
 
 @media (max-width: 992px) {
   /* Adjusting for small devices */
-  /* line 234, ../sass/styles.scss */
+  /* line 240, ../sass/styles.scss */
   .home-services ul {
     text-align: center;
   }
 }
 @media (max-width: 767px) {
   /* Adjusting for mobile */
-  /* line 240, ../sass/styles.scss */
+  /* line 246, ../sass/styles.scss */
   .home-services li {
     display: block;
     float: none;
@@ -8094,22 +8110,22 @@ dt {
     padding: 10px 3px;
   }
 
-  /* line 248, ../sass/styles.scss */
+  /* line 254, ../sass/styles.scss */
   .home-services li:first-child {
     border-left: 0;
   }
 
-  /* line 251, ../sass/styles.scss */
+  /* line 257, ../sass/styles.scss */
   .home-services ul:hover li {
     width: 100%;
   }
 
-  /* line 254, ../sass/styles.scss */
+  /* line 260, ../sass/styles.scss */
   .home-services ul:hover > li:hover {
     width: 100%;
   }
 }
-/* line 263, ../sass/styles.scss */
+/* line 269, ../sass/styles.scss */
 .home-section {
   height: 100%;
   margin: 0 auto;
@@ -8117,32 +8133,32 @@ dt {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* line 274, ../sass/styles.scss */
+/* line 280, ../sass/styles.scss */
 .about-section {
   height: 100%;
   margin: 0 auto;
   padding-top: 100px;
   background: #eee;
 }
-/* line 284, ../sass/styles.scss */
+/* line 290, ../sass/styles.scss */
 .about-section p {
   font-size: 16px;
 }
 
-/* line 289, ../sass/styles.scss */
+/* line 295, ../sass/styles.scss */
 .services-section {
   height: 100%;
   padding-top: 100px;
   margin: 0 auto;
   background: #fff;
 }
-/* line 297, ../sass/styles.scss */
+/* line 303, ../sass/styles.scss */
 .services-section dt {
   padding-top: 1em;
   padding-bottom: .2em;
 }
 
-/* line 304, ../sass/styles.scss */
+/* line 310, ../sass/styles.scss */
 .reservations-section {
   height: 100%;
   padding-top: 100px;
@@ -8151,7 +8167,7 @@ dt {
   background: #fff;
 }
 
-/* line 313, ../sass/styles.scss */
+/* line 319, ../sass/styles.scss */
 .contact-section {
   height: 100%;
   padding-top: 100px;
