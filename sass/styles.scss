@@ -43,6 +43,16 @@ html {
     height: 100%;
 }
 
+h3 {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+dt {
+  letter-spacing: .05em;
+  border-bottom: 1px solid #D2D294;
+}
+
 // section .container {
 //   max-width: 940px !important;
 // }
@@ -137,9 +147,12 @@ position: absolute;
 
   }
 
+    .navbar-big {
+      padding: 65px 0;
+    }
 
     .navbar {
-        padding: 65px 0;
+        // padding: 65px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -255,9 +268,7 @@ position: absolute;
     background: rgba(255,255,255,.9);
 
     //only headers should be centered
-    h2 {
-      text-align: center;
-    }
+
 }
 
 .about-section {
@@ -268,10 +279,7 @@ position: absolute;
     padding-top: 100px;
     background: #eee;
 
-    //only headers should be centered? not sure on this yet
-    h2 {
-      text-align: center;
-    }
+
 
     p {
       font-size: 16px;
