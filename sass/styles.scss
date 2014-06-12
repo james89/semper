@@ -4,13 +4,24 @@
 // use $ instead of @ (for scss vs less)
 // customize bootstrap variables before importing:
 $navbar-default-bg: #003366;
+$navbar-default-border: darken($navbar-default-bg, 6.5%);
+$navbar-default-link-active-bg: transparent;
 $navbar-height: 80px;
+
+//these should be same color to avoid flickering effect with one-page scroll
+$navbar-default-link-hover-color: #fff;
+$navbar-default-link-active-color: gold;
+
+$navbar-default-color:  #fff;
+$navbar-default-link-color: #fff;
+
 //bootstrap to use only Open Sans
 $font-family-base: 'Open Sans', sans-serif;
 // $grid-gutter-width: 0px;
 // $container-lg: 940px;
 
 //import bootstrap
+// @import "variables";
 @import 'bootstrap';
 @import 'compass/css3';
 @import "compass/css3/opacity";
@@ -21,6 +32,7 @@ $font-family-base: 'Open Sans', sans-serif;
 body {
     width: 100%;
     height: 100%;
+    -webkit-backface-visibility: hidden;
 
     //if font breaks, uncomment following line:
     // font-family: 'Open Sans', sans-serif;
@@ -98,6 +110,9 @@ position: absolute;
 
   section {
     width: 100%;
+    dl {
+      padding: 15px;
+    }
   }
 
 
@@ -116,6 +131,10 @@ position: absolute;
 
   section {
     width: 90%;
+    dl {
+      padding: 10px;
+    }
+
   }
 
 
@@ -264,7 +283,7 @@ position: absolute;
     padding-top: 100px;
 
     margin: 0 auto;
-    text-align: center;
+
     background: #fff;
 }
 

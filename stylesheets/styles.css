@@ -5387,30 +5387,30 @@ tbody.collapse.in {
 }
 /* line 397, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
-  color: #777777;
+  color: white;
 }
 /* line 399, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #e6e6e6;
   background-color: transparent;
 }
 /* line 406, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-text {
-  color: #777777;
+  color: white;
 }
 /* line 411, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  color: white;
 }
 /* line 414, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #333333;
+  color: white;
   background-color: transparent;
 }
 /* line 421, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #555555;
-  background-color: #002245;
+  color: gold;
+  background-color: transparent;
 }
 /* line 429, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
@@ -5436,23 +5436,23 @@ tbody.collapse.in {
 }
 /* line 458, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #002245;
-  color: #555555;
+  background-color: transparent;
+  color: gold;
 }
 @media (max-width: 767px) {
   /* line 469, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777777;
+    color: white;
   }
   /* line 471, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333333;
+    color: white;
     background-color: transparent;
   }
   /* line 478, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #555555;
-    background-color: #002245;
+    color: gold;
+    background-color: transparent;
   }
   /* line 486, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -5462,19 +5462,19 @@ tbody.collapse.in {
 }
 /* line 502, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-link {
-  color: #777777;
+  color: white;
 }
 /* line 504, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-link:hover {
-  color: #333333;
+  color: white;
 }
 /* line 509, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .btn-link {
-  color: #777777;
+  color: white;
 }
 /* line 511, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
-  color: #333333;
+  color: white;
 }
 /* line 517, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-link:focus {
@@ -7889,45 +7889,46 @@ button.close {
     display: none !important;
   }
 }
-/* line 21, ../sass/styles.scss */
+/* line 32, ../sass/styles.scss */
 body {
   width: 100%;
   height: 100%;
+  -webkit-backface-visibility: hidden;
 }
 
-/* line 29, ../sass/styles.scss */
+/* line 41, ../sass/styles.scss */
 html {
   width: 100%;
   height: 100%;
 }
 
-/* line 40, ../sass/styles.scss */
+/* line 52, ../sass/styles.scss */
 .container {
   margin-right: auto !important;
   margin-left: auto !important;
   max-width: 970px !important;
 }
 
-/* line 47, ../sass/styles.scss */
+/* line 59, ../sass/styles.scss */
 .navbar {
   box-shadow: 0px 2px 12px 3px #151515;
   -moz-box-shadow: 0px 2px 12px 3px #151515;
   -webkit-box-shadow: 0px 2px 12px 3px #151515;
 }
 
-/* line 62, ../sass/styles.scss */
+/* line 74, ../sass/styles.scss */
 .navbar-brand {
   padding: 0;
 }
 
-/* line 69, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 .grayscaled {
   -webkit-filter: grayscale(70%);
   filter: grayscale(70%);
 }
 
 /* ===== Wrapper ====== */
-/* line 78, ../sass/styles.scss */
+/* line 90, ../sass/styles.scss */
 .wrapper {
   position: absolute;
   bottom: 0;
@@ -7939,31 +7940,39 @@ html {
 
 /*  ======= Media Queries ====== */
 @media (max-width: 767px) {
-  /* line 92, ../sass/styles.scss */
+  /* line 104, ../sass/styles.scss */
   .logo {
     margin-top: 10px;
     margin-left: 20px;
     height: 50px;
   }
 
-  /* line 99, ../sass/styles.scss */
+  /* line 111, ../sass/styles.scss */
   section {
     width: 100%;
   }
+  /* line 113, ../sass/styles.scss */
+  section dl {
+    padding: 15px;
+  }
 }
 @media (min-width: 767px) {
-  /* line 111, ../sass/styles.scss */
+  /* line 126, ../sass/styles.scss */
   .logo {
     height: 80px;
     margin-left: 20px;
   }
 
-  /* line 117, ../sass/styles.scss */
+  /* line 132, ../sass/styles.scss */
   section {
     width: 90%;
   }
+  /* line 134, ../sass/styles.scss */
+  section dl {
+    padding: 10px;
+  }
 
-  /* line 122, ../sass/styles.scss */
+  /* line 141, ../sass/styles.scss */
   .navbar {
     padding: 65px 0;
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -7971,39 +7980,39 @@ html {
     transition: background .5s ease-in-out,padding .5s ease-in-out;
   }
 
-  /* line 129, ../sass/styles.scss */
+  /* line 148, ../sass/styles.scss */
   .navbar-nav {
     float: right;
     padding-right: 100px;
   }
 
-  /* line 134, ../sass/styles.scss */
+  /* line 153, ../sass/styles.scss */
   .top-nav-collapse {
     /* Customize the look and feel of the collapsed top nav here */
     padding: 0px 0px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 143, ../sass/styles.scss */
+  /* line 162, ../sass/styles.scss */
   section {
     width: 80%;
   }
 }
 /* ===== Home Services ===== */
-/* line 151, ../sass/styles.scss */
+/* line 170, ../sass/styles.scss */
 .home-services {
   background: #CCCC99;
   color: white;
 }
 
-/* line 156, ../sass/styles.scss */
+/* line 175, ../sass/styles.scss */
 .home-services ul {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
 }
 
-/* line 161, ../sass/styles.scss */
+/* line 180, ../sass/styles.scss */
 .home-services li {
   float: left;
   width: 24%;
@@ -8018,33 +8027,33 @@ html {
   transition: width 300ms;
 }
 
-/* line 174, ../sass/styles.scss */
+/* line 193, ../sass/styles.scss */
 .home-services li:first-child {
   border-left: 1px solid #a3a37a;
 }
 
-/* line 177, ../sass/styles.scss */
+/* line 196, ../sass/styles.scss */
 .home-services ul:hover li {
   width: 20%;
 }
 
-/* line 180, ../sass/styles.scss */
+/* line 199, ../sass/styles.scss */
 .home-services ul:hover > li:hover {
   width: 36%;
 }
 
-/* line 183, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 .home-services li i {
   font-size: 22px;
 }
 
-/* line 186, ../sass/styles.scss */
+/* line 205, ../sass/styles.scss */
 .home-services li p {
   margin: 10px 0 0;
   text-transform: uppercase;
 }
 
-/* line 196, ../sass/styles.scss */
+/* line 215, ../sass/styles.scss */
 .home-services .lead {
   margin: 0;
   line-height: 93px;
@@ -8052,14 +8061,14 @@ html {
 
 @media (max-width: 992px) {
   /* Adjusting for small devices */
-  /* line 202, ../sass/styles.scss */
+  /* line 221, ../sass/styles.scss */
   .home-services ul {
     text-align: center;
   }
 }
 @media (max-width: 767px) {
   /* Adjusting for mobile */
-  /* line 208, ../sass/styles.scss */
+  /* line 227, ../sass/styles.scss */
   .home-services li {
     display: block;
     float: none;
@@ -8069,59 +8078,58 @@ html {
     padding: 10px 3px;
   }
 
-  /* line 216, ../sass/styles.scss */
+  /* line 235, ../sass/styles.scss */
   .home-services li:first-child {
     border-left: 0;
   }
 
-  /* line 219, ../sass/styles.scss */
+  /* line 238, ../sass/styles.scss */
   .home-services ul:hover li {
     width: 100%;
   }
 
-  /* line 222, ../sass/styles.scss */
+  /* line 241, ../sass/styles.scss */
   .home-services ul:hover > li:hover {
     width: 100%;
   }
 }
-/* line 231, ../sass/styles.scss */
+/* line 250, ../sass/styles.scss */
 .home-section {
   height: 100%;
   margin: 0 auto;
   padding-top: 100px;
   background: rgba(255, 255, 255, 0.9);
 }
-/* line 239, ../sass/styles.scss */
+/* line 258, ../sass/styles.scss */
 .home-section h2 {
   text-align: center;
 }
 
-/* line 244, ../sass/styles.scss */
+/* line 263, ../sass/styles.scss */
 .about-section {
   height: 100%;
   margin: 0 auto;
   padding-top: 100px;
   background: #eee;
 }
-/* line 253, ../sass/styles.scss */
+/* line 272, ../sass/styles.scss */
 .about-section h2 {
   text-align: center;
 }
-/* line 257, ../sass/styles.scss */
+/* line 276, ../sass/styles.scss */
 .about-section p {
   font-size: 16px;
 }
 
-/* line 262, ../sass/styles.scss */
+/* line 281, ../sass/styles.scss */
 .services-section {
   height: 100%;
   padding-top: 100px;
   margin: 0 auto;
-  text-align: center;
   background: #fff;
 }
 
-/* line 272, ../sass/styles.scss */
+/* line 291, ../sass/styles.scss */
 .reservations-section {
   height: 100%;
   padding-top: 100px;
@@ -8130,7 +8138,7 @@ html {
   background: #fff;
 }
 
-/* line 281, ../sass/styles.scss */
+/* line 300, ../sass/styles.scss */
 .contact-section {
   height: 100%;
   padding-top: 100px;
