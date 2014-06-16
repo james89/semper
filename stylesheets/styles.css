@@ -367,8 +367,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?1399506838");
-  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?&1399506838#iefix") format("embedded-opentype"), url("/fonts/bootstrap/glyphicons-halflings-regular.woff?1399506838") format("woff"), url("/fonts/bootstrap/glyphicons-halflings-regular.ttf?1399506838") format("truetype"), url("/fonts/bootstrap/glyphicons-halflings-regular.svg?1399506838#glyphicons_halflingsregular") format("svg");
+  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?1402950064");
+  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?&1402950064#iefix") format("embedded-opentype"), url("/fonts/bootstrap/glyphicons-halflings-regular.woff?1402950064") format("woff"), url("/fonts/bootstrap/glyphicons-halflings-regular.ttf?1402950064") format("truetype"), url("/fonts/bootstrap/glyphicons-halflings-regular.svg?1402950064#glyphicons_halflingsregular") format("svg");
 }
 /* line 25, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -7994,57 +7994,58 @@ dt {
   /* line 148, ../sass/styles.scss */
   section {
     width: 90%;
+    min-height: 100%;
   }
-  /* line 150, ../sass/styles.scss */
+  /* line 151, ../sass/styles.scss */
   section dl {
     padding: 10px;
   }
 
-  /* line 156, ../sass/styles.scss */
+  /* line 157, ../sass/styles.scss */
   .navbar-big {
     padding: 65px 0;
   }
 
-  /* line 160, ../sass/styles.scss */
+  /* line 161, ../sass/styles.scss */
   .navbar {
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
   }
 
-  /* line 167, ../sass/styles.scss */
+  /* line 168, ../sass/styles.scss */
   .navbar-nav {
     float: right;
     padding-right: 100px;
   }
 
-  /* line 172, ../sass/styles.scss */
+  /* line 173, ../sass/styles.scss */
   .top-nav-collapse {
     /* Customize the look and feel of the collapsed top nav here */
     padding: 0px 0px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 181, ../sass/styles.scss */
+  /* line 182, ../sass/styles.scss */
   section {
     width: 80%;
   }
 }
 /* ===== Home Services ===== */
-/* line 189, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
 .home-services {
   background: #CCCC99;
   color: white;
 }
 
-/* line 194, ../sass/styles.scss */
+/* line 195, ../sass/styles.scss */
 .home-services ul {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
 }
 
-/* line 199, ../sass/styles.scss */
+/* line 200, ../sass/styles.scss */
 .home-services li {
   float: left;
   width: 24%;
@@ -8059,33 +8060,33 @@ dt {
   transition: width 300ms;
 }
 
-/* line 212, ../sass/styles.scss */
+/* line 213, ../sass/styles.scss */
 .home-services li:first-child {
   border-left: 1px solid #a3a37a;
 }
 
-/* line 215, ../sass/styles.scss */
+/* line 216, ../sass/styles.scss */
 .home-services ul:hover li {
   width: 20%;
 }
 
-/* line 218, ../sass/styles.scss */
+/* line 219, ../sass/styles.scss */
 .home-services ul:hover > li:hover {
   width: 36%;
 }
 
-/* line 221, ../sass/styles.scss */
+/* line 222, ../sass/styles.scss */
 .home-services li i {
   font-size: 22px;
 }
 
-/* line 224, ../sass/styles.scss */
+/* line 225, ../sass/styles.scss */
 .home-services li p {
   margin: 10px 0 0;
   text-transform: uppercase;
 }
 
-/* line 234, ../sass/styles.scss */
+/* line 235, ../sass/styles.scss */
 .home-services .lead {
   margin: 0;
   line-height: 93px;
@@ -8093,14 +8094,14 @@ dt {
 
 @media (max-width: 992px) {
   /* Adjusting for small devices */
-  /* line 240, ../sass/styles.scss */
+  /* line 241, ../sass/styles.scss */
   .home-services ul {
     text-align: center;
   }
 }
 @media (max-width: 767px) {
   /* Adjusting for mobile */
-  /* line 246, ../sass/styles.scss */
+  /* line 247, ../sass/styles.scss */
   .home-services li {
     display: block;
     float: none;
@@ -8110,22 +8111,22 @@ dt {
     padding: 10px 3px;
   }
 
-  /* line 254, ../sass/styles.scss */
+  /* line 255, ../sass/styles.scss */
   .home-services li:first-child {
     border-left: 0;
   }
 
-  /* line 257, ../sass/styles.scss */
+  /* line 258, ../sass/styles.scss */
   .home-services ul:hover li {
     width: 100%;
   }
 
-  /* line 260, ../sass/styles.scss */
+  /* line 261, ../sass/styles.scss */
   .home-services ul:hover > li:hover {
     width: 100%;
   }
 }
-/* line 269, ../sass/styles.scss */
+/* line 270, ../sass/styles.scss */
 .home-section {
   height: 100%;
   margin: 0 auto;
@@ -8133,32 +8134,32 @@ dt {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* line 280, ../sass/styles.scss */
+/* line 281, ../sass/styles.scss */
 .about-section {
   height: 100%;
   margin: 0 auto;
   padding-top: 100px;
   background: #eee;
 }
-/* line 290, ../sass/styles.scss */
+/* line 291, ../sass/styles.scss */
 .about-section p {
   font-size: 16px;
 }
 
-/* line 295, ../sass/styles.scss */
+/* line 296, ../sass/styles.scss */
 .services-section {
   height: 100%;
   padding-top: 100px;
   margin: 0 auto;
   background: #fff;
 }
-/* line 303, ../sass/styles.scss */
+/* line 304, ../sass/styles.scss */
 .services-section dt {
   padding-top: 1em;
   padding-bottom: .2em;
 }
 
-/* line 310, ../sass/styles.scss */
+/* line 311, ../sass/styles.scss */
 .reservations-section {
   height: 100%;
   padding-top: 100px;
@@ -8167,7 +8168,7 @@ dt {
   background: #fff;
 }
 
-/* line 319, ../sass/styles.scss */
+/* line 320, ../sass/styles.scss */
 .contact-section {
   height: 100%;
   padding-top: 100px;
