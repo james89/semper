@@ -367,8 +367,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?1402944314");
-  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?&1402944314#iefix") format("embedded-opentype"), url("/fonts/bootstrap/glyphicons-halflings-regular.woff?1402944314") format("woff"), url("/fonts/bootstrap/glyphicons-halflings-regular.ttf?1402944314") format("truetype"), url("/fonts/bootstrap/glyphicons-halflings-regular.svg?1402944314#glyphicons_halflingsregular") format("svg");
+  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?1402950502");
+  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?&1402950502#iefix") format("embedded-opentype"), url("/fonts/bootstrap/glyphicons-halflings-regular.woff?1402950502") format("woff"), url("/fonts/bootstrap/glyphicons-halflings-regular.ttf?1402950502") format("truetype"), url("/fonts/bootstrap/glyphicons-halflings-regular.svg?1402950502#glyphicons_halflingsregular") format("svg");
 }
 /* line 25, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -7991,33 +7991,35 @@ input, textarea, button {
 html, body {
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-/* line 62, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 h3 {
   text-transform: uppercase;
   letter-spacing: .1em;
 }
 
-/* line 67, ../sass/styles.scss */
+/* line 69, ../sass/styles.scss */
 dt {
   letter-spacing: .05em;
   border-bottom: 1px solid #D2D294;
 }
 
-/* line 77, ../sass/styles.scss */
+/* line 79, ../sass/styles.scss */
 .navbar-nav > li > a {
   padding-bottom: 5px;
 }
 
-/* line 83, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
 .container {
   margin-right: auto !important;
   margin-left: auto !important;
   max-width: 970px !important;
 }
 
-/* line 91, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
 .navbar {
   box-shadow: 0px 2px 12px 3px #151515;
   -moz-box-shadow: 0px 2px 12px 3px #151515;
@@ -8027,28 +8029,28 @@ dt {
   letter-spacing: .1em;
 }
 
-/* line 100, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 .logo-slogan {
   display: block;
 }
 
-/* line 104, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 .navbar-brand {
   padding: 0;
 }
-/* line 107, ../sass/styles.scss */
+/* line 109, ../sass/styles.scss */
 .navbar-brand .slogan {
   float: bottom;
 }
 
-/* line 115, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 .grayscaled {
   -webkit-filter: grayscale(70%);
   filter: grayscale(70%);
 }
 
 /* ===== Wrapper ====== */
-/* line 124, ../sass/styles.scss */
+/* line 126, ../sass/styles.scss */
 .wrapper {
   position: absolute;
   bottom: 0;
@@ -8060,20 +8062,18 @@ dt {
 
 /*  ======= Media Queries ====== */
 @media (max-width: 767px) {
-  /* line 140, ../sass/styles.scss */
+  /* line 142, ../sass/styles.scss */
   .logo {
     margin-top: 10px;
     margin-left: 20px;
     height: 50px;
   }
 
-  /* line 147, ../sass/styles.scss */
+  /* line 149, ../sass/styles.scss */
   section {
     width: 100%;
-    margin-bottom: 100px !important;
-    margin-top: 100px !important;
-    padding-bottom: 100px !important;
-    font-size: .5em;
+    padding-top: 150px !important;
+    font-size: .9em !important;
   }
   /* line 153, ../sass/styles.scss */
   section dl {
@@ -8100,7 +8100,7 @@ dt {
 
   /* line 180, ../sass/styles.scss */
   section {
-    width: 90%;
+    width: 100%;
   }
   /* line 182, ../sass/styles.scss */
   section dl {
@@ -8143,14 +8143,14 @@ dt {
   color: white;
 }
 
-/* line 225, ../sass/styles.scss */
+/* line 224, ../sass/styles.scss */
 .home-services ul {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
 }
 
-/* line 230, ../sass/styles.scss */
+/* line 229, ../sass/styles.scss */
 .home-services li {
   float: left;
   width: 24%;
@@ -8165,33 +8165,33 @@ dt {
   transition: width 300ms;
 }
 
-/* line 243, ../sass/styles.scss */
+/* line 242, ../sass/styles.scss */
 .home-services li:first-child {
   border-left: 1px solid #a3a37a;
 }
 
-/* line 246, ../sass/styles.scss */
+/* line 245, ../sass/styles.scss */
 .home-services ul:hover li {
   width: 20%;
 }
 
-/* line 249, ../sass/styles.scss */
+/* line 248, ../sass/styles.scss */
 .home-services ul:hover > li:hover {
   width: 36%;
 }
 
-/* line 252, ../sass/styles.scss */
+/* line 251, ../sass/styles.scss */
 .home-services li i {
   font-size: 22px;
 }
 
-/* line 255, ../sass/styles.scss */
+/* line 254, ../sass/styles.scss */
 .home-services li p {
   margin: 10px 0 0;
   text-transform: uppercase;
 }
 
-/* line 265, ../sass/styles.scss */
+/* line 264, ../sass/styles.scss */
 .home-services .lead {
   margin: 0;
   line-height: 93px;
@@ -8199,14 +8199,14 @@ dt {
 
 @media (max-width: 992px) {
   /* Adjusting for small devices */
-  /* line 271, ../sass/styles.scss */
+  /* line 270, ../sass/styles.scss */
   .home-services ul {
     text-align: center;
   }
 }
 @media (max-width: 767px) {
   /* Adjusting for mobile */
-  /* line 277, ../sass/styles.scss */
+  /* line 276, ../sass/styles.scss */
   .home-services li {
     display: block;
     float: none;
@@ -8216,22 +8216,22 @@ dt {
     padding: 10px 3px;
   }
 
-  /* line 285, ../sass/styles.scss */
+  /* line 284, ../sass/styles.scss */
   .home-services li:first-child {
     border-left: 0;
   }
 
-  /* line 288, ../sass/styles.scss */
+  /* line 287, ../sass/styles.scss */
   .home-services ul:hover li {
     width: 100%;
   }
 
-  /* line 291, ../sass/styles.scss */
+  /* line 290, ../sass/styles.scss */
   .home-services ul:hover > li:hover {
     width: 100%;
   }
 }
-/* line 300, ../sass/styles.scss */
+/* line 299, ../sass/styles.scss */
 .home-section {
   height: 100%;
   margin: 0 auto;
@@ -8239,19 +8239,24 @@ dt {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* line 311, ../sass/styles.scss */
+/* line 310, ../sass/styles.scss */
 .about-section {
   height: 100%;
   margin: 0 auto;
-  padding-top: 80px;
   background: #eee;
 }
-/* line 321, ../sass/styles.scss */
+@media (max-width: 767px) {
+  /* line 310, ../sass/styles.scss */
+  .about-section {
+    padding-bottom: 800px !important;
+  }
+}
+/* line 323, ../sass/styles.scss */
 .about-section p {
   font-size: 16px;
 }
 
-/* line 326, ../sass/styles.scss */
+/* line 328, ../sass/styles.scss */
 .services-section {
   height: 100%;
   padding-top: 80px;
@@ -8259,13 +8264,19 @@ dt {
   background: #fff;
   font-size: 14px;
 }
-/* line 336, ../sass/styles.scss */
+@media (max-width: 767px) {
+  /* line 328, ../sass/styles.scss */
+  .services-section {
+    padding-bottom: 600px !important;
+  }
+}
+/* line 341, ../sass/styles.scss */
 .services-section dt {
   padding-top: .5em;
   padding-bottom: .5em;
 }
 
-/* line 342, ../sass/styles.scss */
+/* line 347, ../sass/styles.scss */
 .fleet-section {
   height: 100%;
   margin: 0 auto;
@@ -8273,7 +8284,7 @@ dt {
   background: #eee;
 }
 
-/* line 352, ../sass/styles.scss */
+/* line 357, ../sass/styles.scss */
 .reservations-section {
   height: 100%;
   padding-top: 80px;
@@ -8282,7 +8293,7 @@ dt {
   background: #fff;
 }
 
-/* line 361, ../sass/styles.scss */
+/* line 366, ../sass/styles.scss */
 .contact-section {
   height: 100%;
   padding-top: 100px;

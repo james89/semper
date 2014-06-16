@@ -43,6 +43,8 @@ $font-family-base: 'Open Sans', sans-serif;
 html, body {
   height: 100%;
   width: 100%;
+     margin: 0;
+   padding: 0;
 }
 
 
@@ -146,10 +148,8 @@ position: absolute;
 
   section {
     width: 100%;
-    margin-bottom: 100px !important;
-    margin-top: 100px !important;
-    padding-bottom: 100px !important;
-    font-size: .5em;
+    padding-top: 150px !important;
+    font-size: .9em !important;
     dl {
       padding: 15px;
     }
@@ -178,7 +178,7 @@ position: absolute;
   }
 
   section {
-    width: 90%;
+    width: 100%;
     dl {
       padding: 15px;
     }
@@ -218,7 +218,6 @@ position: absolute;
 
 /* ===== Home Services ===== */
 .home-services {
-
   background: #CCCC99;
   color: white;
 }
@@ -313,7 +312,10 @@ position: absolute;
 
     margin: 0 auto;
 
-    padding-top: 80px;
+  @media (max-width: 767px) {
+    padding-bottom: 800px !important;
+  }
+
     background: #eee;
 
 
@@ -332,6 +334,9 @@ position: absolute;
     background: #fff;
 
     font-size: 14px;
+  @media (max-width: 767px) {
+    padding-bottom: 600px !important;
+  }
 
     dt {
       padding-top: .5em;
