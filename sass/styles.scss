@@ -20,14 +20,26 @@ $font-family-base: 'Open Sans', sans-serif;
 // $grid-gutter-width: 0px;
 // $container-lg: 940px;
 
-//import bootstrap
+//for contact form
+ $input-border-focus: #003366;
+ $brand-primary: #003366;
+
+//Import Bootstrap
 // @import "variables";
 @import 'bootstrap';
 @import 'compass/css3';
 @import "compass/css3/opacity";
 @import "compass/css3/box-shadow";
 @import "compass/css3/filter";
+
+//Partials
+@import "partials/contact";
+@import "partials/accordion";
+
+//Fonts
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700);
+
+
 
 body {
     width: 100%;
@@ -53,6 +65,7 @@ dt {
   border-bottom: 1px solid #D2D294;
 }
 
+
 // section .container {
 //   max-width: 940px !important;
 // }
@@ -74,6 +87,9 @@ padding-bottom: 5px;
 box-shadow: 0px 2px 12px 3px #151515;
 -moz-box-shadow: 0px 2px 12px 3px #151515;
 -webkit-box-shadow: 0px 2px 12px 3px #151515;
+text-transform: uppercase;
+font-size: .85em;
+letter-spacing: .1em;
 }
 
 
@@ -135,7 +151,7 @@ position: absolute;
   border-bottom-color: #D2D294;
   border-bottom-width:3px;
   border-bottom-style:solid;
-  @include transition(all 0.5s ease-in-out)
+  @include transition(all 0.4s ease-in-out);
 }
 
 
@@ -148,7 +164,7 @@ position: absolute;
   section {
     width: 90%;
     dl {
-      padding: 10px;
+      padding: 15px;
     }
 
   }
@@ -159,14 +175,13 @@ position: absolute;
 
     .navbar {
         // padding: 65px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .4s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .4s ease-in-out,padding .5s ease-in-out;
+        transition: background .4s ease-in-out,padding .5s ease-in-out;
     }
 
     .navbar-nav {
       float: right;
-      padding-right: 100px;
     }
 
     .top-nav-collapse {
@@ -179,7 +194,7 @@ position: absolute;
 
 @media(min-width:1200px) {
   section {
-    width: 80%;
+    width: 85%;
   }
 }
 
@@ -282,7 +297,7 @@ position: absolute;
 
     margin: 0 auto;
 
-    padding-top: 100px;
+    padding-top: 80px;
     background: #eee;
 
 
@@ -294,22 +309,33 @@ position: absolute;
 
 .services-section {
     height: 100%;
-    padding-top: 100px;
+    padding-top: 80px;
 
     margin: 0 auto;
 
     background: #fff;
 
+    font-size: 14px;
+
     dt {
-      padding-top: 1em;
-      padding-bottom: .2em;
+      padding-top: .5em;
+      padding-bottom: .5em;
     }
+}
+
+.fleet-section {
+      height: 100%;
+
+    margin: 0 auto;
+
+    padding-top: 80px;
+    background: #eee;
 }
 
 
 .reservations-section {
     height: 100%;
-    padding-top: 100px;
+    padding-top: 80px;
 
     margin: 0 auto;
     text-align: center;

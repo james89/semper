@@ -1,6 +1,6 @@
 $(function(){
 
-
+  //for background slideshow
   $.vegas('slideshow', {
     delay:12000,
     backgrounds:[
@@ -9,7 +9,11 @@ $(function(){
     ]
   })('overlay');
 
-
+  // for contact form
+  $('.required-icon').tooltip({
+    placement: 'left',
+    title: 'Required field'
+    });
 
 
 

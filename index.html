@@ -15,15 +15,12 @@
   <link rel="stylesheet" href="stylesheets/styles.css" />
 
 <link rel="stylesheet" type="text/css" href="stylesheets/jquery.vegas.css" />
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+
 
   <!-- Scripts -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-
-
-  <!-- remove below bootstrap link before production -->
-<!--   <script src="javascripts/bootstrap/bootstrap.min.js"></script>
- -->
 
 
   <!--[if lt IE 9]>
@@ -44,20 +41,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#home"><img class="logo" src="img/LongformLogoBlue.png" alt=""></a>
+                <a class="navbar-brand page-scroll" href="#home"><img class="logo" src="img/semper_final2.png" alt=""></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav" id="nav">
-                     <li class="page-scroll">
+<!--                      <li class="page-scroll">
                         <a href="#home">Home</a>
-                    </li>
+                    </li> -->
                     <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#services">Services</a>
+                    </li>
+                    <li class="page-scroll">
+                      <a href="#fleet">Fleet</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#reservations">Reservations</a>
@@ -152,7 +152,51 @@
                 </div>
                 <div class="row">
                   <div class="col-sm-12 col-md-12">
-                    <dl>
+                    <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          Airport Transportation
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        We service every airport in the NYC Tri-State area.  We utilize the most sophisticated and up to date software applications to monitor inbound and outbound flight schedules.  Most of our requests are pre-arranged for our drivers to remain with our vehicle at curbside for those who need rapid exit and no luggage service.  Conversely and upon request, we can also meet your arriving passenger in the terminal as they exit the secure TSA area of commercial flights.  Guests are met with a distinctive sign that can contain our logo and the passenger’s last name.  We accompany your passenger to the baggage claim area and load their luggage on a cart to transport to our vehicle.  We will also transfer baggage from our vehicle to hotel bellmen or apartment doormen.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          Missed Connections?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        Our state-of-the-art applications, GPS tracking, and dispatching software, combined with dedicated dispatchers insure no missed connections.  Our chauffeurs are in constant communication with our dispatch center.  The dispatch staff begins monitoring flight status two hours prior to the expected arrival of any aircraft and keeps the chauffeur updated with information.  Our GPS tracking system helps us locate our dispatched vehicle location immediately.  Every chauffeur is provided with the passenger’s flight and contact information.  A simple toll-free call can put your passenger and our chauffeur together in just a minute or so, whether locally or at any large airport such as LGA, JFK or EWR.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          Disabled and Wheel Chair Accessible Vehicles
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        SempeRide is proud to support our veterans and wounded warriors.  We provide non-emergency and specialized transportation services to passengers with disabilities or special accommodations.  We feel that these folks are a great disadvantage when it comes to accessibility and expediency of obtaining proper transportation services to all points of transfers.  Whether the request is for an important medical appointment, airport transfer or leisure ride, SempeRide is always ready to ride.   We feature discrete and specially converted modern luxury mini-vans.  These vehicles do not feature unnecessary markings or advertisement that indicates that a passenger in a wheel chair it’s on board.  We feel that every passenger should be treated equally, with dignity, without stigmas or advertisement to the public regardless of their physical/medical condition.
+      </div>
+    </div>
+  </div>
+</div>
+                    <!-- <dl>
                       <dt>
                         Airport Transportation
                       </dt>
@@ -177,8 +221,18 @@
                         <dd>
                           SempeRide is proud to support our veterans and wounded warriors.  We provide non-emergency and specialized transportation services to passengers with disabilities or special accommodations.  We feel that these folks are a great disadvantage when it comes to accessibility and expediency of obtaining proper transportation services to all points of transfers.  Whether the request is for an important medical appointment, airport transfer or leisure ride, SempeRide is always ready to ride.   We feature discrete and specially converted modern luxury mini-vans.  These vehicles do not feature unnecessary markings or advertisement that indicates that a passenger in a wheel chair it’s on board.  We feel that every passenger should be treated equally, with dignity, without stigmas or advertisement to the public regardless of their physical/medical condition.
                         </dd>
-                    </dl>
+                    </dl> -->
                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fleet" class="fleet-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Fleet Section</h3>
                 </div>
             </div>
         </div>
@@ -199,9 +253,45 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3>Contact Section</h3>
+                    <h3>Contact Semperide</h3>
                 </div>
             </div>
+
+<!-- how to set up form with his webhost: http://support.godaddy.com/help/article/8376/using-our-php-form-mailers-on-web-classic-hosting -->
+
+    <form role="form" style="max-width:600px; margin: 0 auto;">
+
+        <div class="required-field-block">
+            <input type="text" placeholder="Name" class="form-control">
+            <div class="required-icon">
+                <div class="text">*</div>
+            </div>
+        </div>
+
+        <div class="required-field-block">
+            <input type="text" placeholder="Email" class="form-control">
+            <div class="required-icon">
+                <div class="text">*</div>
+            </div>
+        </div>
+
+        <div class="required-field-block">
+          <input type="text" placeholder="Phone" class="form-control">
+          <div class="required-icon">
+                <div class="text">*</div>
+            </div>
+        </div>
+
+        <div class="required-field-block">
+            <textarea rows="6" class="form-control" placeholder="Message"></textarea>
+            <div class="required-icon">
+                <div class="text">*</div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+
         </div>
     </section>
 
