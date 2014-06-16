@@ -7971,20 +7971,15 @@ input, textarea, button {
 .panel-heading .accordion-toggle:after {
   /* symbol for "opening" panels */
   font-family: 'Glyphicons Halflings';
-  /* essential for enabling glyphicon */
   content: "\e114";
-  /* adjust as needed, taken from bootstrap.css */
   float: right;
-  /* adjust as needed */
   color: grey;
-  /* adjust as needed */
 }
 
 /* line 8, ../sass/partials/_accordion.scss */
 .panel-heading .accordion-toggle.collapsed:after {
   /* symbol for "collapsed" panels */
   content: "\e080";
-  /* adjust as needed, taken from bootstrap.css */
 }
 
 /* line 13, ../sass/partials/_accordion.scss */
@@ -7992,44 +7987,37 @@ input, textarea, button {
   margin-bottom: 10px !important;
 }
 
-/* line 44, ../sass/styles.scss */
-body {
-  width: 100%;
+/* line 43, ../sass/styles.scss */
+html, body {
   height: 100%;
-  -webkit-backface-visibility: hidden;
+  width: 100%;
 }
 
-/* line 53, ../sass/styles.scss */
-html {
-  width: 100%;
-  height: 100%;
-}
-
-/* line 58, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 h3 {
   text-transform: uppercase;
   letter-spacing: .1em;
 }
 
-/* line 63, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 dt {
   letter-spacing: .05em;
   border-bottom: 1px solid #D2D294;
 }
 
-/* line 73, ../sass/styles.scss */
+/* line 77, ../sass/styles.scss */
 .navbar-nav > li > a {
   padding-bottom: 5px;
 }
 
-/* line 79, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 .container {
   margin-right: auto !important;
   margin-left: auto !important;
   max-width: 970px !important;
 }
 
-/* line 86, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 .navbar {
   box-shadow: 0px 2px 12px 3px #151515;
   -moz-box-shadow: 0px 2px 12px 3px #151515;
@@ -8039,19 +8027,28 @@ dt {
   letter-spacing: .1em;
 }
 
-/* line 96, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
+.logo-slogan {
+  display: block;
+}
+
+/* line 104, ../sass/styles.scss */
 .navbar-brand {
   padding: 0;
 }
+/* line 107, ../sass/styles.scss */
+.navbar-brand .slogan {
+  float: bottom;
+}
 
-/* line 103, ../sass/styles.scss */
+/* line 115, ../sass/styles.scss */
 .grayscaled {
   -webkit-filter: grayscale(70%);
   filter: grayscale(70%);
 }
 
 /* ===== Wrapper ====== */
-/* line 112, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 .wrapper {
   position: absolute;
   bottom: 0;
@@ -8063,24 +8060,28 @@ dt {
 
 /*  ======= Media Queries ====== */
 @media (max-width: 767px) {
-  /* line 128, ../sass/styles.scss */
+  /* line 140, ../sass/styles.scss */
   .logo {
     margin-top: 10px;
     margin-left: 20px;
     height: 50px;
   }
 
-  /* line 135, ../sass/styles.scss */
+  /* line 147, ../sass/styles.scss */
   section {
     width: 100%;
+    margin-bottom: 100px !important;
+    margin-top: 100px !important;
+    padding-bottom: 100px !important;
+    font-size: .5em;
   }
-  /* line 137, ../sass/styles.scss */
+  /* line 153, ../sass/styles.scss */
   section dl {
     padding: 15px;
   }
 }
 @media (min-width: 767px) {
-  /* line 150, ../sass/styles.scss */
+  /* line 166, ../sass/styles.scss */
   .current {
     border-bottom-color: #D2D294;
     border-bottom-width: 3px;
@@ -8091,65 +8092,65 @@ dt {
     transition: all 0.4s ease-in-out;
   }
 
-  /* line 158, ../sass/styles.scss */
+  /* line 174, ../sass/styles.scss */
   .logo {
     height: 80px;
     margin-left: 20px;
   }
 
-  /* line 164, ../sass/styles.scss */
+  /* line 180, ../sass/styles.scss */
   section {
     width: 90%;
   }
-  /* line 166, ../sass/styles.scss */
+  /* line 182, ../sass/styles.scss */
   section dl {
     padding: 15px;
   }
 
-  /* line 172, ../sass/styles.scss */
+  /* line 188, ../sass/styles.scss */
   .navbar-big {
     padding: 65px 0;
   }
 
-  /* line 176, ../sass/styles.scss */
+  /* line 192, ../sass/styles.scss */
   .navbar {
     -webkit-transition: background .4s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .4s ease-in-out,padding .5s ease-in-out;
     transition: background .4s ease-in-out,padding .5s ease-in-out;
   }
 
-  /* line 183, ../sass/styles.scss */
+  /* line 199, ../sass/styles.scss */
   .navbar-nav {
     float: right;
   }
 
-  /* line 187, ../sass/styles.scss */
+  /* line 203, ../sass/styles.scss */
   .top-nav-collapse {
     /* Customize the look and feel of the collapsed top nav here */
     padding: 0px 0px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 196, ../sass/styles.scss */
+  /* line 212, ../sass/styles.scss */
   section {
     width: 85%;
   }
 }
 /* ===== Home Services ===== */
-/* line 204, ../sass/styles.scss */
+/* line 220, ../sass/styles.scss */
 .home-services {
   background: #CCCC99;
   color: white;
 }
 
-/* line 209, ../sass/styles.scss */
+/* line 225, ../sass/styles.scss */
 .home-services ul {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
 }
 
-/* line 214, ../sass/styles.scss */
+/* line 230, ../sass/styles.scss */
 .home-services li {
   float: left;
   width: 24%;
@@ -8164,33 +8165,33 @@ dt {
   transition: width 300ms;
 }
 
-/* line 227, ../sass/styles.scss */
+/* line 243, ../sass/styles.scss */
 .home-services li:first-child {
   border-left: 1px solid #a3a37a;
 }
 
-/* line 230, ../sass/styles.scss */
+/* line 246, ../sass/styles.scss */
 .home-services ul:hover li {
   width: 20%;
 }
 
-/* line 233, ../sass/styles.scss */
+/* line 249, ../sass/styles.scss */
 .home-services ul:hover > li:hover {
   width: 36%;
 }
 
-/* line 236, ../sass/styles.scss */
+/* line 252, ../sass/styles.scss */
 .home-services li i {
   font-size: 22px;
 }
 
-/* line 239, ../sass/styles.scss */
+/* line 255, ../sass/styles.scss */
 .home-services li p {
   margin: 10px 0 0;
   text-transform: uppercase;
 }
 
-/* line 249, ../sass/styles.scss */
+/* line 265, ../sass/styles.scss */
 .home-services .lead {
   margin: 0;
   line-height: 93px;
@@ -8198,14 +8199,14 @@ dt {
 
 @media (max-width: 992px) {
   /* Adjusting for small devices */
-  /* line 255, ../sass/styles.scss */
+  /* line 271, ../sass/styles.scss */
   .home-services ul {
     text-align: center;
   }
 }
 @media (max-width: 767px) {
   /* Adjusting for mobile */
-  /* line 261, ../sass/styles.scss */
+  /* line 277, ../sass/styles.scss */
   .home-services li {
     display: block;
     float: none;
@@ -8215,22 +8216,22 @@ dt {
     padding: 10px 3px;
   }
 
-  /* line 269, ../sass/styles.scss */
+  /* line 285, ../sass/styles.scss */
   .home-services li:first-child {
     border-left: 0;
   }
 
-  /* line 272, ../sass/styles.scss */
+  /* line 288, ../sass/styles.scss */
   .home-services ul:hover li {
     width: 100%;
   }
 
-  /* line 275, ../sass/styles.scss */
+  /* line 291, ../sass/styles.scss */
   .home-services ul:hover > li:hover {
     width: 100%;
   }
 }
-/* line 284, ../sass/styles.scss */
+/* line 300, ../sass/styles.scss */
 .home-section {
   height: 100%;
   margin: 0 auto;
@@ -8238,19 +8239,19 @@ dt {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* line 295, ../sass/styles.scss */
+/* line 311, ../sass/styles.scss */
 .about-section {
   height: 100%;
   margin: 0 auto;
   padding-top: 80px;
   background: #eee;
 }
-/* line 305, ../sass/styles.scss */
+/* line 321, ../sass/styles.scss */
 .about-section p {
   font-size: 16px;
 }
 
-/* line 310, ../sass/styles.scss */
+/* line 326, ../sass/styles.scss */
 .services-section {
   height: 100%;
   padding-top: 80px;
@@ -8258,13 +8259,13 @@ dt {
   background: #fff;
   font-size: 14px;
 }
-/* line 320, ../sass/styles.scss */
+/* line 336, ../sass/styles.scss */
 .services-section dt {
   padding-top: .5em;
   padding-bottom: .5em;
 }
 
-/* line 326, ../sass/styles.scss */
+/* line 342, ../sass/styles.scss */
 .fleet-section {
   height: 100%;
   margin: 0 auto;
@@ -8272,7 +8273,7 @@ dt {
   background: #eee;
 }
 
-/* line 336, ../sass/styles.scss */
+/* line 352, ../sass/styles.scss */
 .reservations-section {
   height: 100%;
   padding-top: 80px;
@@ -8281,7 +8282,7 @@ dt {
   background: #fff;
 }
 
-/* line 345, ../sass/styles.scss */
+/* line 361, ../sass/styles.scss */
 .contact-section {
   height: 100%;
   padding-top: 100px;
