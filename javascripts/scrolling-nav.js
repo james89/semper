@@ -24,7 +24,9 @@ $(document).ready(function() {
     } else {
         $(".navbar-fixed-top").addClass("navbar-big");
     }
-});
+    });
+
+
 
 });
 
