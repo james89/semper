@@ -368,11 +368,16 @@ th {
 @font-face {
   font-family: 'Glyphicons Halflings';
 <<<<<<< HEAD
+<<<<<<< HEAD
   src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?1402950064");
   src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?&1402950064#iefix") format("embedded-opentype"), url("/fonts/bootstrap/glyphicons-halflings-regular.woff?1402950064") format("woff"), url("/fonts/bootstrap/glyphicons-halflings-regular.ttf?1402950064") format("truetype"), url("/fonts/bootstrap/glyphicons-halflings-regular.svg?1402950064#glyphicons_halflingsregular") format("svg");
 =======
   src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?1402950502");
   src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?&1402950502#iefix") format("embedded-opentype"), url("/fonts/bootstrap/glyphicons-halflings-regular.woff?1402950502") format("woff"), url("/fonts/bootstrap/glyphicons-halflings-regular.ttf?1402950502") format("truetype"), url("/fonts/bootstrap/glyphicons-halflings-regular.svg?1402950502#glyphicons_halflingsregular") format("svg");
+>>>>>>> master
+=======
+  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?1402952224");
+  src: url("/fonts/bootstrap/glyphicons-halflings-regular.eot?&1402952224#iefix") format("embedded-opentype"), url("/fonts/bootstrap/glyphicons-halflings-regular.woff?1402952224") format("woff"), url("/fonts/bootstrap/glyphicons-halflings-regular.ttf?1402952224") format("truetype"), url("/fonts/bootstrap/glyphicons-halflings-regular.svg?1402952224#glyphicons_halflingsregular") format("svg");
 >>>>>>> master
 }
 /* line 25, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_glyphicons.scss */
@@ -1473,7 +1478,7 @@ img {
   line-height: 1.428571429;
   background-color: white;
   border: 1px solid #dddddd;
-  border-radius: 4px;
+  border-radius: 0px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -1965,7 +1970,7 @@ code {
   font-size: 90%;
   color: #c7254e;
   background-color: #f9f2f4;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 
 /* line 24, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_code.scss */
@@ -1990,7 +1995,7 @@ pre {
   color: #333333;
   background-color: whitesmoke;
   border: 1px solid #cccccc;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 48, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_code.scss */
 pre code {
@@ -3479,7 +3484,7 @@ output {
   background-color: white;
   background-image: none;
   border: 1px solid #cccccc;
-  border-radius: 4px;
+  border-radius: 0px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
@@ -3966,7 +3971,7 @@ select[multiple].input-lg,
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.428571429;
-  border-radius: 4px;
+  border-radius: 0px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -4315,7 +4320,7 @@ tbody.collapse.in {
   background-color: white;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border-radius: 0px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box;
@@ -4632,13 +4637,13 @@ tbody.collapse.in {
 }
 /* line 178, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn:first-child:not(:last-child) {
-  border-top-right-radius: 4px;
+  border-top-right-radius: 0px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 /* line 182, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn:last-child:not(:first-child) {
-  border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 0px;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
@@ -4740,7 +4745,7 @@ tbody.collapse.in {
   text-align: center;
   background-color: #eeeeee;
   border: 1px solid #cccccc;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 81, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 .input-group-addon.input-sm,
@@ -4900,7 +4905,7 @@ tbody.collapse.in {
   margin-right: 2px;
   line-height: 1.428571429;
   border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
+  border-radius: 0px 0px 0 0;
 }
 /* line 89, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li > a:hover {
@@ -4921,7 +4926,7 @@ tbody.collapse.in {
 }
 /* line 122, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li > a {
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 125, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li + li {
@@ -4980,7 +4985,7 @@ tbody.collapse.in {
 /* line 193, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
   margin-right: 0;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 199, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
@@ -4994,7 +4999,7 @@ tbody.collapse.in {
   /* line 206, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #dddddd;
-    border-radius: 4px 4px 0 0;
+    border-radius: 0px 0px 0 0;
   }
   /* line 210, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
@@ -5041,7 +5046,7 @@ tbody.collapse.in {
 @media (min-width: 768px) {
   /* line 11, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar {
-    border-radius: 4px;
+    border-radius: 0px;
   }
 }
 
@@ -5211,7 +5216,7 @@ tbody.collapse.in {
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 202, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-toggle:focus {
@@ -5601,7 +5606,7 @@ tbody.collapse.in {
   margin-bottom: 20px;
   list-style: none;
   background-color: whitesmoke;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 13, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_breadcrumbs.scss */
 .breadcrumb > li {
@@ -5623,7 +5628,7 @@ tbody.collapse.in {
   display: inline-block;
   padding-left: 0;
   margin: 20px 0;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 10, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination > li {
@@ -5646,14 +5651,14 @@ tbody.collapse.in {
 .pagination > li:first-child > a,
 .pagination > li:first-child > span {
   margin-left: 0;
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
 }
 /* line 32, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
 }
 /* line 41, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination > li > a:hover, .pagination > li > a:focus,
@@ -5966,7 +5971,7 @@ a.badge:hover, a.badge:focus {
   line-height: 1.428571429;
   background-color: white;
   border: 1px solid #dddddd;
-  border-radius: 4px;
+  border-radius: 0px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -5998,7 +6003,7 @@ a.thumbnail.active {
   padding: 15px;
   margin-bottom: 20px;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 16, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_alerts.scss */
 .alert h4 {
@@ -6108,7 +6113,7 @@ a.thumbnail.active {
   height: 20px;
   margin-bottom: 20px;
   background-color: whitesmoke;
-  border-radius: 4px;
+  border-radius: 0px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -6262,14 +6267,14 @@ a.thumbnail.active {
 }
 /* line 31, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item:first-child {
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
 }
 /* line 34, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item:last-child {
   margin-bottom: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 /* line 40, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item > .badge {
@@ -6445,7 +6450,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
   margin-bottom: 20px;
   background-color: white;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 0px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -6468,8 +6473,8 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  border-top-right-radius: -1px;
+  border-top-left-radius: -1px;
 }
 /* line 27, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel-heading > .dropdown .dropdown-toggle {
@@ -6493,8 +6498,8 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
   padding: 10px 15px;
   background-color: whitesmoke;
   border-top: 1px solid #dddddd;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: -1px;
+  border-bottom-left-radius: -1px;
 }
 
 /* line 59, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
@@ -6509,14 +6514,14 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 /* line 69, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .list-group:first-child .list-group-item:first-child {
   border-top: 0;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  border-top-right-radius: -1px;
+  border-top-left-radius: -1px;
 }
 /* line 76, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .list-group:last-child .list-group-item:last-child {
   border-bottom: 0;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: -1px;
+  border-bottom-left-radius: -1px;
 }
 
 /* line 85, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
@@ -6532,8 +6537,8 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 /* line 102, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child,
 .panel > .table-responsive:first-child > .table:first-child {
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  border-top-right-radius: -1px;
+  border-top-left-radius: -1px;
 }
 /* line 109, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
@@ -6544,7 +6549,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
-  border-top-left-radius: 3px;
+  border-top-left-radius: -1px;
 }
 /* line 113, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
@@ -6555,13 +6560,13 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
-  border-top-right-radius: 3px;
+  border-top-right-radius: -1px;
 }
 /* line 121, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child,
 .panel > .table-responsive:last-child > .table:last-child {
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: -1px;
+  border-bottom-left-radius: -1px;
 }
 /* line 128, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
@@ -6572,7 +6577,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
-  border-bottom-left-radius: 3px;
+  border-bottom-left-radius: -1px;
 }
 /* line 132, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
@@ -6583,7 +6588,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
-  border-bottom-right-radius: 3px;
+  border-bottom-right-radius: -1px;
 }
 /* line 139, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .panel-body + .table,
@@ -6665,7 +6670,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 /* line 199, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel {
   margin-bottom: 0;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 /* line 202, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel + .panel {
@@ -6839,7 +6844,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
   margin-bottom: 20px;
   background-color: whitesmoke;
   border: 1px solid #e3e3e3;
-  border-radius: 4px;
+  border-radius: 0px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -7100,7 +7105,7 @@ button.close {
   text-align: center;
   text-decoration: none;
   background-color: black;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 
 /* line 35, ../../../.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
@@ -7992,7 +7997,47 @@ input, textarea, button {
   margin-bottom: 10px !important;
 }
 
-/* line 43, ../sass/styles.scss */
+/* line 1, ../sass/partials/_headers.scss */
+.page-title {
+  color: #003366;
+  padding: 0 5px 0 5px;
+  border: 2px solid #003366;
+}
+
+/* line 8, ../sass/partials/_headers.scss */
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* line 1, ../sass/partials/_carousel.scss */
+.fullscreen {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  padding-top: 120px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: white;
+  text-shadow: 1px 1px 3px rgba(100, 100, 100, 0.5);
+}
+
+/* line 18, ../sass/partials/_carousel.scss */
+.fullscreen .btn {
+  margin-bottom: 100px;
+}
+
+/* line 22, ../sass/partials/_carousel.scss */
+.fullscreen img {
+  margin: 0 auto;
+  border: 4px solid #003366;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+/* line 48, ../sass/styles.scss */
 html, body {
   height: 100%;
   width: 100%;
@@ -8000,31 +8045,31 @@ html, body {
   padding: 0;
 }
 
-/* line 64, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 h3 {
   text-transform: uppercase;
   letter-spacing: .1em;
 }
 
-/* line 69, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 dt {
   letter-spacing: .05em;
   border-bottom: 1px solid #D2D294;
 }
 
-/* line 79, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 .navbar-nav > li > a {
   padding-bottom: 5px;
 }
 
-/* line 85, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 .container {
   margin-right: auto !important;
   margin-left: auto !important;
   max-width: 970px !important;
 }
 
-/* line 93, ../sass/styles.scss */
+/* line 94, ../sass/styles.scss */
 .navbar {
   box-shadow: 0px 2px 12px 3px #151515;
   -moz-box-shadow: 0px 2px 12px 3px #151515;
@@ -8034,28 +8079,34 @@ dt {
   letter-spacing: .1em;
 }
 
-/* line 102, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 .logo-slogan {
   display: block;
 }
 
-/* line 106, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 .navbar-brand {
   padding: 0;
 }
-/* line 109, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 .navbar-brand .slogan {
   float: bottom;
 }
 
-/* line 117, ../sass/styles.scss */
+/* line 118, ../sass/styles.scss */
 .grayscaled {
   -webkit-filter: grayscale(70%);
   filter: grayscale(70%);
 }
 
+/* line 122, ../sass/styles.scss */
+.grayscaled:after {
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: -999;
+}
+
 /* ===== Wrapper ====== */
-/* line 126, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 .wrapper {
   position: absolute;
   bottom: 0;
@@ -8067,26 +8118,32 @@ dt {
 
 /*  ======= Media Queries ====== */
 @media (max-width: 767px) {
-  /* line 142, ../sass/styles.scss */
+  /* line 148, ../sass/styles.scss */
   .logo {
     margin-top: 10px;
     margin-left: 20px;
     height: 50px;
   }
 
-  /* line 149, ../sass/styles.scss */
-  section {
+  /* line 155, ../sass/styles.scss */
+  .home-section {
+    padding-top: 80px !important;
+    width: 100%;
+  }
+
+  /* line 162, ../sass/styles.scss */
+  .about-section,
+  .services-section,
+  .fleet-section,
+  .reservations-section,
+  .contact-section {
     width: 100%;
     padding-top: 150px !important;
     font-size: .9em !important;
   }
-  /* line 153, ../sass/styles.scss */
-  section dl {
-    padding: 15px;
-  }
 }
 @media (min-width: 767px) {
-  /* line 166, ../sass/styles.scss */
+  /* line 182, ../sass/styles.scss */
   .current {
     border-bottom-color: #D2D294;
     border-bottom-width: 3px;
@@ -8097,13 +8154,13 @@ dt {
     transition: all 0.4s ease-in-out;
   }
 
-  /* line 174, ../sass/styles.scss */
+  /* line 190, ../sass/styles.scss */
   .logo {
     height: 80px;
     margin-left: 20px;
   }
 
-  /* line 180, ../sass/styles.scss */
+  /* line 196, ../sass/styles.scss */
   section {
 <<<<<<< HEAD
     width: 90%;
@@ -8112,26 +8169,40 @@ dt {
   /* line 151, ../sass/styles.scss */
 =======
     width: 100%;
+    border-right: 8px solid #003366;
+    border-left: 8px solid #003366;
   }
+<<<<<<< HEAD
   /* line 182, ../sass/styles.scss */
+>>>>>>> master
+=======
+  /* line 200, ../sass/styles.scss */
 >>>>>>> master
   section dl {
     padding: 15px;
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* line 157, ../sass/styles.scss */
 =======
   /* line 188, ../sass/styles.scss */
+>>>>>>> master
+=======
+  /* line 206, ../sass/styles.scss */
 >>>>>>> master
   .navbar-big {
     padding: 65px 0;
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* line 161, ../sass/styles.scss */
 =======
   /* line 192, ../sass/styles.scss */
+>>>>>>> master
+=======
+  /* line 210, ../sass/styles.scss */
 >>>>>>> master
   .navbar {
     -webkit-transition: background .4s ease-in-out,padding .5s ease-in-out;
@@ -8140,18 +8211,26 @@ dt {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* line 168, ../sass/styles.scss */
 =======
   /* line 199, ../sass/styles.scss */
+>>>>>>> master
+=======
+  /* line 217, ../sass/styles.scss */
 >>>>>>> master
   .navbar-nav {
     float: right;
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* line 173, ../sass/styles.scss */
 =======
   /* line 203, ../sass/styles.scss */
+>>>>>>> master
+=======
+  /* line 221, ../sass/styles.scss */
 >>>>>>> master
   .top-nav-collapse {
     /* Customize the look and feel of the collapsed top nav here */
@@ -8160,19 +8239,32 @@ dt {
 }
 @media (min-width: 1200px) {
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* line 182, ../sass/styles.scss */
 =======
   /* line 212, ../sass/styles.scss */
 >>>>>>> master
+=======
+  /* line 230, ../sass/styles.scss */
+>>>>>>> master
   section {
+    width: 85%;
+  }
+
+  /* line 233, ../sass/styles.scss */
+  .home-section {
     width: 85%;
   }
 }
 /* ===== Home Services ===== */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 190, ../sass/styles.scss */
 =======
 /* line 220, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 241, ../sass/styles.scss */
 >>>>>>> master
 .home-services {
   background: #CCCC99;
@@ -8180,9 +8272,13 @@ dt {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 195, ../sass/styles.scss */
 =======
 /* line 224, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 245, ../sass/styles.scss */
 >>>>>>> master
 .home-services ul {
   list-style-type: none;
@@ -8191,9 +8287,13 @@ dt {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 200, ../sass/styles.scss */
 =======
 /* line 229, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 250, ../sass/styles.scss */
 >>>>>>> master
 .home-services li {
   float: left;
@@ -8210,45 +8310,65 @@ dt {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 213, ../sass/styles.scss */
 =======
 /* line 242, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 263, ../sass/styles.scss */
 >>>>>>> master
 .home-services li:first-child {
   border-left: 1px solid #a3a37a;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 216, ../sass/styles.scss */
 =======
 /* line 245, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 266, ../sass/styles.scss */
 >>>>>>> master
 .home-services ul:hover li {
   width: 20%;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 219, ../sass/styles.scss */
 =======
 /* line 248, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 269, ../sass/styles.scss */
 >>>>>>> master
 .home-services ul:hover > li:hover {
   width: 36%;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 222, ../sass/styles.scss */
 =======
 /* line 251, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 272, ../sass/styles.scss */
 >>>>>>> master
 .home-services li i {
   font-size: 22px;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 225, ../sass/styles.scss */
 =======
 /* line 254, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 275, ../sass/styles.scss */
 >>>>>>> master
 .home-services li p {
   margin: 10px 0 0;
@@ -8256,9 +8376,13 @@ dt {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 235, ../sass/styles.scss */
 =======
 /* line 264, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 285, ../sass/styles.scss */
 >>>>>>> master
 .home-services .lead {
   margin: 0;
@@ -8268,9 +8392,13 @@ dt {
 @media (max-width: 992px) {
   /* Adjusting for small devices */
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* line 241, ../sass/styles.scss */
 =======
   /* line 270, ../sass/styles.scss */
+>>>>>>> master
+=======
+  /* line 291, ../sass/styles.scss */
 >>>>>>> master
   .home-services ul {
     text-align: center;
@@ -8279,9 +8407,13 @@ dt {
 @media (max-width: 767px) {
   /* Adjusting for mobile */
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* line 247, ../sass/styles.scss */
 =======
   /* line 276, ../sass/styles.scss */
+>>>>>>> master
+=======
+  /* line 297, ../sass/styles.scss */
 >>>>>>> master
   .home-services li {
     display: block;
@@ -8293,51 +8425,72 @@ dt {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* line 255, ../sass/styles.scss */
 =======
   /* line 284, ../sass/styles.scss */
+>>>>>>> master
+=======
+  /* line 305, ../sass/styles.scss */
 >>>>>>> master
   .home-services li:first-child {
     border-left: 0;
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* line 258, ../sass/styles.scss */
 =======
   /* line 287, ../sass/styles.scss */
+>>>>>>> master
+=======
+  /* line 308, ../sass/styles.scss */
 >>>>>>> master
   .home-services ul:hover li {
     width: 100%;
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* line 261, ../sass/styles.scss */
 =======
   /* line 290, ../sass/styles.scss */
+>>>>>>> master
+=======
+  /* line 311, ../sass/styles.scss */
 >>>>>>> master
   .home-services ul:hover > li:hover {
     width: 100%;
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 270, ../sass/styles.scss */
 =======
 /* line 299, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 320, ../sass/styles.scss */
 >>>>>>> master
 .home-section {
   height: 100%;
   margin: 0 auto;
   padding-top: 100px;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.7);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 281, ../sass/styles.scss */
 =======
 /* line 310, ../sass/styles.scss */
 >>>>>>> master
+=======
+/* line 334, ../sass/styles.scss */
+>>>>>>> master
 .about-section {
   height: 100%;
+  padding-top: 80px;
   margin: 0 auto;
   background: #eee;
 }
@@ -8345,21 +8498,29 @@ dt {
 /* line 291, ../sass/styles.scss */
 =======
 @media (max-width: 767px) {
-  /* line 310, ../sass/styles.scss */
+  /* line 334, ../sass/styles.scss */
   .about-section {
     padding-bottom: 800px !important;
   }
 }
+<<<<<<< HEAD
 /* line 323, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 348, ../sass/styles.scss */
 >>>>>>> master
 .about-section p {
   font-size: 16px;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 296, ../sass/styles.scss */
 =======
 /* line 328, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 353, ../sass/styles.scss */
 >>>>>>> master
 .services-section {
   height: 100%;
@@ -8372,12 +8533,16 @@ dt {
 /* line 304, ../sass/styles.scss */
 =======
 @media (max-width: 767px) {
-  /* line 328, ../sass/styles.scss */
+  /* line 353, ../sass/styles.scss */
   .services-section {
     padding-bottom: 600px !important;
   }
 }
+<<<<<<< HEAD
 /* line 341, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 366, ../sass/styles.scss */
 >>>>>>> master
 .services-section dt {
   padding-top: .5em;
@@ -8385,17 +8550,26 @@ dt {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 311, ../sass/styles.scss */
 =======
 /* line 347, ../sass/styles.scss */
+=======
+/* line 372, ../sass/styles.scss */
+>>>>>>> master
 .fleet-section {
   height: 100%;
+  padding-top: 80px;
   margin: 0 auto;
   padding-top: 80px;
   background: #eee;
 }
 
+<<<<<<< HEAD
 /* line 357, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 383, ../sass/styles.scss */
 >>>>>>> master
 .reservations-section {
   height: 100%;
@@ -8406,9 +8580,13 @@ dt {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 320, ../sass/styles.scss */
 =======
 /* line 366, ../sass/styles.scss */
+>>>>>>> master
+=======
+/* line 392, ../sass/styles.scss */
 >>>>>>> master
 .contact-section {
   height: 100%;
@@ -8416,4 +8594,44 @@ dt {
   margin: 0 auto;
   text-align: center;
   background: #eee;
+}
+
+/* line 404, ../sass/styles.scss */
+.delay-1 {
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: none;
+  animation-delay: 300ms;
+}
+
+/* line 409, ../sass/styles.scss */
+.delay-2 {
+  -webkit-animation-delay: 600ms;
+  -moz-animation-delay: none;
+  animation-delay: 600ms;
+}
+
+/* line 414, ../sass/styles.scss */
+.delay-3 {
+  -webkit-animation-delay: 900ms;
+  -moz-animation-delay: none;
+  animation-delay: 900ms;
+}
+
+/* line 419, ../sass/styles.scss */
+.delay-4 {
+  -webkit-animation-delay: 1200ms;
+  -moz-animation-delay: none;
+  animation-delay: 1200ms;
+}
+
+/* line 425, ../sass/styles.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 429, ../sass/styles.scss */
+.italicize {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: .2em;
 }

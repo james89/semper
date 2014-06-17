@@ -24,6 +24,9 @@ $font-family-base: 'Open Sans', sans-serif;
  $input-border-focus: #003366;
  $brand-primary: #003366;
 
+ //no border radius
+ $border-radius-base: 0px;
+
 //Import Bootstrap
 // @import "variables";
 @import 'bootstrap';
@@ -35,6 +38,8 @@ $font-family-base: 'Open Sans', sans-serif;
 //Partials
 @import "partials/contact";
 @import "partials/accordion";
+@import "partials/headers";
+@import "partials/carousel";
 
 //Fonts
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700);
@@ -50,11 +55,7 @@ html, body {
 
 
 
-// body {
-//     width: 100%;
-//     height: 100%;
-//     -webkit-backface-visibility: hidden;
-// }
+
 
 // html {
 //     width: 100%;
@@ -118,6 +119,11 @@ letter-spacing: .1em;
   @include filter(grayscale(70%));
 }
 
+.grayscaled:after {
+  background-color: rgba(255,255,255,.5);
+  z-index: -999;
+}
+
 
 
 
@@ -146,13 +152,21 @@ position: absolute;
 
   }
 
-  section {
+  .home-section {
+    padding-top: 80px !important;
+    width: 100%;
+
+
+  }
+
+  .about-section,
+  .services-section,
+  .fleet-section,
+  .reservations-section,
+  .contact-section {
     width: 100%;
     padding-top: 150px !important;
     font-size: .9em !important;
-    dl {
-      padding: 15px;
-    }
   }
 
 
@@ -162,6 +176,8 @@ position: absolute;
  }
 
 @media(min-width:767px) {
+
+
 
   .current {
   border-bottom-color: #D2D294;
@@ -183,6 +199,11 @@ position: absolute;
     min-height: 100%;
 =======
     width: 100%;
+<<<<<<< HEAD
+>>>>>>> master
+=======
+    border-right: 8px solid #003366;
+border-left: 8px solid #003366;
 >>>>>>> master
     dl {
       padding: 15px;
@@ -215,6 +236,9 @@ position: absolute;
 
 @media(min-width:1200px) {
   section {
+    width: 85%;
+  }
+  .home-section {
     width: 85%;
   }
 }
@@ -306,14 +330,18 @@ position: absolute;
 
     margin: 0 auto;
     padding-top: 100px;
-    background: rgba(255,255,255,.9);
+
+    background: rgba(255,255,255,.7);
 
     //only headers should be centered
+
+
 
 }
 
 .about-section {
     height: 100%;
+    padding-top: 80px;
 
     margin: 0 auto;
 
@@ -351,6 +379,7 @@ position: absolute;
 
 .fleet-section {
       height: 100%;
+      padding-top: 80px;
 
     margin: 0 auto;
 
@@ -375,4 +404,38 @@ position: absolute;
     margin: 0 auto;
     text-align: center;
     background: #eee;
+}
+
+
+// HELPERS
+
+.delay-1 {
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: none;
+  animation-delay: 300ms;
+}
+.delay-2 {
+  -webkit-animation-delay: 600ms;
+  -moz-animation-delay: none;
+  animation-delay: 600ms;
+}
+.delay-3 {
+  -webkit-animation-delay: 900ms;
+  -moz-animation-delay: none;
+  animation-delay: 900ms;
+}
+.delay-4 {
+  -webkit-animation-delay: 1200ms;
+  -moz-animation-delay: none;
+  animation-delay: 1200ms;
+}
+
+.uppercase {
+  text-transform: uppercase
+}
+
+.italicize {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: .2em;
 }
